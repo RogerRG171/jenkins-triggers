@@ -12,4 +12,9 @@ pipeline {
             }
         }
     }
+    post{
+        success{
+            sh 'echo "Success..."'
+        }
+    }
 }
